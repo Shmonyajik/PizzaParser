@@ -1,0 +1,22 @@
+2022-09-14T16:43:56.982005+0300 | INFO | Парсинг страницы по адресу: https://dominospizza.ru/
+2022-09-14T16:43:58.178275+0300 | INFO | Запуск драйвера с параметрами: user-agent: ['Chrome/105.0.0.0 ']; {'excludeSwitches': ['enable-logging']}
+2022-09-14T16:44:01.823172+0300 | ERROR | Message: no such element: Unable to locate element: {"method":"css selector","selector":"htmlд"}
+  (Session info: chrome=105.0.5195.102)
+
+2022-09-14T16:44:01.825163+0300 | ERROR | [Errno 2] No such file or directory: 'index_selenium.html'
+2022-09-14T16:44:01.828183+0300 | ERROR | An error has been caught in function 'main', process 'MainProcess' (9136), thread 'MainThread' (8288):
+Traceback (most recent call last):
+
+  File "c:\python\DominosPars\googlesheetspars\main.py", line 75, in <module>
+    main()
+    └ <function main at 0x0000004FC74D44C0>
+
+> File "c:\python\DominosPars\googlesheetspars\main.py", line 71, in main
+    get_data_with_selenium("https://dominospizza.ru/")
+    └ <function get_data_with_selenium at 0x0000004FC7266A60>
+
+  File "c:\python\DominosPars\googlesheetspars\main.py", line 44, in get_data_with_selenium
+    soup = BeautifulSoup(src, "lxml")
+           └ <class 'bs4.BeautifulSoup'>
+
+UnboundLocalError: local variable 'src' referenced before assignment

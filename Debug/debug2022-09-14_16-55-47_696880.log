@@ -1,0 +1,8 @@
+2022-09-14T16:55:47.698995+0300 | INFO | Парсинг страницы по адресу: https://dominospizza.ru/
+2022-09-14T16:55:49.067257+0300 | INFO | Запуск драйвера с параметрами: user-agent: ['Chrome/105.0.0.0 ']; {'excludeSwitches': ['enable-logging']}
+2022-09-14T16:56:40.522257+0300 | INFO | Запись html страницы в index_selenium.html прошла успешно
+2022-09-14T16:56:47.698032+0300 | INFO | Чтение файла index_selenium.html прошло успешно
+2022-09-14T16:56:47.742061+0300 | WARNING | 'NoneType' object has no attribute 'text'
+2022-09-14T16:56:47.760978+0300 | INFO | Создан ресурс для взаимодействия с Google API
+2022-09-14T16:56:48.694884+0300 | INFO | 58 cells updated.
+2022-09-14T16:56:48.698937+0300 | INFO | Обновлено: {pizza_range}
