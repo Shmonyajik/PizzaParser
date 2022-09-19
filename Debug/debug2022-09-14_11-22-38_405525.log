@@ -1,5 +1,0 @@
-2022-09-14T11:22:38.411388+0300 | INFO | Парсинг страницы по адресу: https://dominospizza.ru/
-2022-09-14T11:22:39.764953+0300 | INFO | Запуск драйвера с параметрами: user-agent: ['Chrome/105.0.0.0 ']; {'excludeSwitches': ['enable-logging']}
-2022-09-14T11:23:44.341817+0300 | INFO | Запись html страницы в index_selenium.html прошла успешно
-2022-09-14T11:23:51.514245+0300 | INFO | Чтение файла index_selenium.html прошло успешно
-2022-09-14T11:32:40.891368+0300 | WARNING | 'NoneType' object has no attribute 'text'
